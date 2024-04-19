@@ -12,7 +12,7 @@ class Television:
 
     def power(self) -> None:
         """
-        Method to power TV On & Off.
+        Method to power tv On & Off.
         """
         self.__status = not self.__status
 
@@ -25,7 +25,7 @@ class Television:
 
     def channel_up(self) -> None:
         """
-        Method to increase the channel.
+        Method to increase tv channel.
         """
         if self.__status:
             if self.__channel < Television.MAX_CHANNEL:
